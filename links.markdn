@@ -1,0 +1,12 @@
+https://fiodevida.com/o-que-e-sha-1-e-como-ele-e-usado-para-verificacao-de-dados/,
+
+https://developers.google.com/android/guides/client-auth?hl=pt-br
+
+plugins {
+    id 'com.android.application' version '7.1.1' apply false
+    id 'com.android.library' version '7.1.1' apply false
+    id 'com.google.gms.google-services' version '4.3.15' apply false
+}
+
+https://www.liquidweb.com/kb/how-to-install-chocolatey-on-windows/
+https://deno.com/manual@v1.34.3/basics/testing/assertions
