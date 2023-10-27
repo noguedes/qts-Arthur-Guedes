@@ -1,0 +1,226 @@
+{
+  "id": "992bc222-3ad6-4523-adef-4db0e905d95d",
+  "version": "2.0",
+  "name": "steam2",
+  "url": "https://store.steampowered.com/",
+  "tests": [{
+    "id": "0bf49fd5-d5c1-4a5f-a7e0-8a157f700841",
+    "name": "corrida",
+    "commands": [{
+      "id": "ad31b2b9-adc8-419f-93d4-dae30a761d20",
+      "comment": "",
+      "command": "open",
+      "target": "https://store.steampowered.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3cad1b26-a6d4-4cc9-bcde-6bcc28e9b072",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f3823fc7-aa1a-443a-b1e4-6fa89f5bfa41",
+      "comment": "",
+      "command": "click",
+      "target": "id=store_nav_search_term",
+      "targets": [
+        ["id=store_nav_search_term", "id"],
+        ["name=term", "name"],
+        ["css=#store_nav_search_term", "css:finder"],
+        ["xpath=//input[@id='store_nav_search_term']", "xpath:attributes"],
+        ["xpath=//form[@id='searchform']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "931f4fb3-1d1a-47bc-af9e-14a407146f24",
+      "comment": "",
+      "command": "type",
+      "target": "id=store_nav_search_term",
+      "targets": [
+        ["id=store_nav_search_term", "id"],
+        ["name=term", "name"],
+        ["css=#store_nav_search_term", "css:finder"],
+        ["xpath=//input[@id='store_nav_search_term']", "xpath:attributes"],
+        ["xpath=//form[@id='searchform']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "corrida"
+    }, {
+      "id": "d55a33f7-47b7-4566-afb9-3ab3c68d3903",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=store_nav_search_term",
+      "targets": [
+        ["id=store_nav_search_term", "id"],
+        ["name=term", "name"],
+        ["css=#store_nav_search_term", "css:finder"],
+        ["xpath=//input[@id='store_nav_search_term']", "xpath:attributes"],
+        ["xpath=//form[@id='searchform']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "7a111b89-d7ae-4109-9cd7-48c3dc94b586",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.search_result_row:nth-child(2) .search_name > div",
+      "targets": [
+        ["css=.search_result_row:nth-child(2) .search_name > div", "css:finder"],
+        ["xpath=//div[@id='search_resultsRows']/a[2]/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//a[2]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc0fbd53-7008-4ae4-a8cb-d06aca7ca438",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.search_result_row:nth-child(2) .search_name > div",
+      "targets": [
+        ["css=.search_result_row:nth-child(2) .search_name > div", "css:finder"],
+        ["xpath=//div[@id='search_resultsRows']/a[2]/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//a[2]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef2d5503-a646-4807-af97-6732eefa2389",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.search_result_row:nth-child(7) .title",
+      "targets": [
+        ["css=.search_result_row:nth-child(7) .title", "css:finder"],
+        ["xpath=//div[@id='search_resultsRows']/a[7]/div[2]/div/span", "xpath:idRelative"],
+        ["xpath=//a[7]/div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'F1® 23')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "82092f6c-300e-4b61-811c-ebd5e8ccb7d2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.search_result_row:nth-child(7) .title",
+      "targets": [
+        ["css=.search_result_row:nth-child(7) .title", "css:finder"],
+        ["xpath=//div[@id='search_resultsRows']/a[7]/div[2]/div/span", "xpath:idRelative"],
+        ["xpath=//a[7]/div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'F1® 23')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dab0a048-33d6-4cba-b20a-c323ac032112",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.search_result_row:nth-child(9)",
+      "targets": [
+        ["css=.search_result_row:nth-child(9)", "css:finder"],
+        ["xpath=//div[@id='search_resultsRows']/a[9]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://store.steampowered.com/app/1262580/Need_for_Speed_Payback/?snr=1_7_7_151_150_1')]", "xpath:href"],
+        ["xpath=//div[3]/a[9]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa094339-7aa3-4ba6-9953-fbcf77e188a2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.search_result_row:nth-child(4) .search_name > div",
+      "targets": [
+        ["css=.search_result_row:nth-child(4) .search_name > div", "css:finder"],
+        ["xpath=//div[@id='search_resultsRows']/a[4]/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//a[4]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7d98c53-9664-43ea-bee6-c6283948a098",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search_result_row:nth-child(5) .search_name > div",
+      "targets": [
+        ["css=.search_result_row:nth-child(5) .search_name > div", "css:finder"],
+        ["xpath=//div[@id='search_resultsRows']/a[5]/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//a[5]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5e55d99-5299-4e0a-a420-92bc8586cd2c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2350)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d463b45-8a2e-49b4-a4fd-646c7d3e739c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3193)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f26eb55-0338-46f4-a2da-9e7963be5264",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2822)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9572c1e-4811-47f2-85f9-e81a079223b8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.small_cap:nth-child(2)",
+      "targets": [
+        ["css=.small_cap:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='recommended_block_content']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://store.steampowered.com/app/1599340/Lost_Ark/?snr=1_5_9__300_2')]", "xpath:href"],
+        ["xpath=//div[11]/div[2]/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "313a0f64-4bcd-4bbf-86bb-942160f2fb54",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.small_cap:nth-child(2)",
+      "targets": [
+        ["css=.small_cap:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='recommended_block_content']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://store.steampowered.com/app/1599340/Lost_Ark/?snr=1_5_9__300_2')]", "xpath:href"],
+        ["xpath=//div[11]/div[2]/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdacfefe-5dd0-44bd-9cf2-9a35704bdca1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.small_cap:nth-child(3)",
+      "targets": [
+        ["css=.small_cap:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='recommended_block_content']/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://store.steampowered.com/app/985810/GrandChase/?snr=1_5_9__300_3')]", "xpath:href"],
+        ["xpath=//div[11]/div[2]/div/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74779050-c504-4200-86de-0bd88e9270b9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.small_cap:nth-child(3)",
+      "targets": [
+        ["css=.small_cap:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='recommended_block_content']/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://store.steampowered.com/app/985810/GrandChase/?snr=1_5_9__300_3')]", "xpath:href"],
+        ["xpath=//div[11]/div[2]/div/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f820a720-8c19-4325-964e-e716c4b40468",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://store.steampowered.com/"],
+  "plugins": []
+}

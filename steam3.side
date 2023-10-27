@@ -1,0 +1,144 @@
+{
+  "id": "9d835416-50aa-4870-a944-a0803ac08f58",
+  "version": "2.0",
+  "name": "steam3",
+  "url": "https://store.steampowered.com",
+  "tests": [{
+    "id": "7167b0f2-2b09-4286-a426-f78f1477f818",
+    "name": "gta",
+    "commands": [{
+      "id": "fb2d0c26-799b-4adb-91f5-5e8ff00db167",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44cb7818-9322-48e8-bf6c-489f50ab3c5c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "61be2cf9-e486-450f-a671-b07b2cda749e",
+      "comment": "",
+      "command": "click",
+      "target": "id=store_nav_search_term",
+      "targets": [
+        ["id=store_nav_search_term", "id"],
+        ["name=term", "name"],
+        ["css=#store_nav_search_term", "css:finder"],
+        ["xpath=//input[@id='store_nav_search_term']", "xpath:attributes"],
+        ["xpath=//form[@id='searchform']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "716a0504-dec2-4052-b8da-1f6b87b87cc0",
+      "comment": "",
+      "command": "type",
+      "target": "id=store_nav_search_term",
+      "targets": [
+        ["id=store_nav_search_term", "id"],
+        ["name=term", "name"],
+        ["css=#store_nav_search_term", "css:finder"],
+        ["xpath=//input[@id='store_nav_search_term']", "xpath:attributes"],
+        ["xpath=//form[@id='searchform']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "gta"
+    }, {
+      "id": "e34facad-9b07-4f16-b309-307fa477168c",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=store_nav_search_term",
+      "targets": [
+        ["id=store_nav_search_term", "id"],
+        ["name=term", "name"],
+        ["css=#store_nav_search_term", "css:finder"],
+        ["xpath=//input[@id='store_nav_search_term']", "xpath:attributes"],
+        ["xpath=//form[@id='searchform']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "fc598ea8-b0d0-49f2-9188-55af9eccc1cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search_result_row:nth-child(1) .title",
+      "targets": [
+        ["css=.search_result_row:nth-child(1) .title", "css:finder"],
+        ["xpath=//div[@id='search_resultsRows']/a/div[2]/div/span", "xpath:idRelative"],
+        ["xpath=//a/div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Grand Theft Auto V')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "adf98fde-be5b-406b-8712-689ce328b68b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3267)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d95b3d4-550c-4138-b6bd-c98d85ed8576",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.small_cap:nth-child(2) > h4",
+      "targets": [
+        ["css=.small_cap:nth-child(2) > h4", "css:finder"],
+        ["xpath=//div[@id='recommended_block_content']/a[2]/h4", "xpath:idRelative"],
+        ["xpath=//a[2]/h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'BeamNG.drive')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0eec249a-ecf1-486b-bfd5-d700c3846d99",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.small_cap:nth-child(2) > h4",
+      "targets": [
+        ["css=.small_cap:nth-child(2) > h4", "css:finder"],
+        ["xpath=//div[@id='recommended_block_content']/a[2]/h4", "xpath:idRelative"],
+        ["xpath=//a[2]/h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'BeamNG.drive')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b20a5e3b-8cd3-4e75-afde-990c80b9edf0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.small_cap:nth-child(1) > .small_cap_img",
+      "targets": [
+        ["css=.small_cap:nth-child(1) > .small_cap_img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn.akamai.steamstatic.com/steam/apps/12210/capsule_184x69.jpg?t=1695131205')]", "xpath:img"],
+        ["xpath=//div[@id='recommended_block_content']/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6417f9b7-b542-49a2-bd82-311c71479450",
+      "comment": "",
+      "command": "click",
+      "target": "css=.small_cap:nth-child(1) > .small_cap_img",
+      "targets": [
+        ["css=.small_cap:nth-child(1) > .small_cap_img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn.akamai.steamstatic.com/steam/apps/12210/capsule_184x69.jpg?t=1695131205')]", "xpath:img"],
+        ["xpath=//div[@id='recommended_block_content']/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ebcc0b82-9468-49ff-8c7e-65fd1810c480",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://store.steampowered.com/"],
+  "plugins": []
+}

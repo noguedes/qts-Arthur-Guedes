@@ -1,0 +1,95 @@
+{
+  "id": "e0eb1d68-1210-4f1f-8c62-82096218f705",
+  "version": "2.0",
+  "name": "steam",
+  "url": "https://store.steampowered.com",
+  "tests": [{
+    "id": "673758d1-0f43-4e9f-9341-fbbea5027b1c",
+    "name": "tiro",
+    "commands": [{
+      "id": "5cd0e9fb-da2b-4e9f-aea4-e18c0f493912",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb5c73d1-b8f0-490b-9b03-1aab6d61e193",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72a490c6-0731-42a0-be8b-e0e1da8850cc",
+      "comment": "",
+      "command": "click",
+      "target": "id=store_nav_search_term",
+      "targets": [
+        ["id=store_nav_search_term", "id"],
+        ["name=term", "name"],
+        ["css=#store_nav_search_term", "css:finder"],
+        ["xpath=//input[@id='store_nav_search_term']", "xpath:attributes"],
+        ["xpath=//form[@id='searchform']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c40e02b4-5dcf-4806-9657-cba75b03f8ed",
+      "comment": "",
+      "command": "type",
+      "target": "id=store_nav_search_term",
+      "targets": [
+        ["id=store_nav_search_term", "id"],
+        ["name=term", "name"],
+        ["css=#store_nav_search_term", "css:finder"],
+        ["xpath=//input[@id='store_nav_search_term']", "xpath:attributes"],
+        ["xpath=//form[@id='searchform']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "tiro"
+    }, {
+      "id": "0ef5782c-8508-4b8e-b4fc-b23037d4745a",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=store_nav_search_term",
+      "targets": [
+        ["id=store_nav_search_term", "id"],
+        ["name=term", "name"],
+        ["css=#store_nav_search_term", "css:finder"],
+        ["xpath=//input[@id='store_nav_search_term']", "xpath:attributes"],
+        ["xpath=//form[@id='searchform']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "82a7f083-54d5-44eb-bba1-2013f94f37d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search_result_row:nth-child(1) .search_name > div",
+      "targets": [
+        ["css=.search_result_row:nth-child(1) .search_name > div", "css:finder"],
+        ["xpath=//div[@id='search_resultsRows']/a/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//a/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1b78d50-c548-430a-9dfc-ae37254213b5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,600)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "07200804-e841-48ce-b7b9-18e7373b119e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["673758d1-0f43-4e9f-9341-fbbea5027b1c"]
+  }],
+  "urls": ["https://store.steampowered.com/"],
+  "plugins": []
+}
